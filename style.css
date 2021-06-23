@@ -55,7 +55,7 @@ hr {
 .link {
   min-width: 140px;
   width: max-content;
-  padding: 0.5rem 1rem;
+  padding: 0.8rem 1rem;
   text-decoration: none;
 }
 
@@ -103,31 +103,29 @@ hr {
 /* nav */
 .navigation {
   background-color: var(--violet);
-  padding: 1rem 0rem;
+  padding: 0.8rem;
   color: var(--white);
-  border-bottom-left-radius: 1.5rem;
-  border-bottom-right-radius: 1.5rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
   border: 2.3px solid var(--gray);
-  position: relative;
 }
 
 .navigation .brand-name {
+  float: left;
   font-weight: 700;
   font-size: 1.4rem;
-  position: absolute;
   text-transform: uppercase;
 }
 
 .navigation ul {
-  list-style: none;
+  position: relative;
   text-align: right;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
-  overflow: hidden;
 }
 
 .navigation ul li {
-  display: inline-block;
+  display: inline;
   padding: 0 0.8rem;
 }
 
