@@ -120,13 +120,13 @@ hr {
 .navigation ul {
   position: relative;
   text-align: right;
-  font-size: 1.2rem;
   text-transform: uppercase;
 }
 
 .navigation ul li {
   display: inline;
-  padding: 0 0.8rem;
+  padding: 0.3rem 0.8rem;
+  font-size: 1.2rem;
 }
 
 .navigation ul li a {
@@ -189,12 +189,11 @@ section.gray {
 
 footer {
   background-color: var(--violet);
-  color: var(--gray);
   margin-top: 4rem;
-  padding: auto;
+  padding-top: 1.0rem;
   border: 2.3px solid var(--gray);
-  border-top-left-radius: 1.5rem;
-  border-top-right-radius: 1.5rem;
+  border-top-left-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
   text-align: center;
 }
 
